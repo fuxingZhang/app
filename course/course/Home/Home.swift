@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Home.swift
 //  course
 //
 //  Created by 张复星 on 2020/2/10.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Home: View {
     @State var showingProfile = false
 //    @EnvironmentObject var userData: UserData
     
@@ -36,9 +36,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Home()
 //            .environmentObject(UserData())
     }
 }
