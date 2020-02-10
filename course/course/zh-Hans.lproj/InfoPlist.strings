@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  course
+
+  Created by 张复星 on 2020/2/10.
+  Copyright © 2020 张复星. All rights reserved.
+*/
+CFBundleDisplayName = "上课啦";
