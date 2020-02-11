@@ -15,9 +15,41 @@
 		F810776323F0EBF200340B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F810776123F0EBF200340B4C /* LaunchScreen.storyboard */; };
 		F810776F23F0ED3900340B4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F810777123F0ED3900340B4C /* InfoPlist.strings */; };
 		F810777A23F160DE00340B4C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810777923F160DE00340B4C /* UserData.swift */; };
-		F810777D23F16C6900340B4C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810777C23F16C6900340B4C /* Home.swift */; };
+		F810777D23F16C6900340B4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810777C23F16C6900340B4C /* ContentView.swift */; };
 		F810778023F16D2A00340B4C /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F810777F23F16D2A00340B4C /* ProfileHost.swift */; };
+		F8FE624A23F24AC00025F3A8 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE624923F24AC00025F3A8 /* CourseList.swift */; };
+		F8FE625223F264160025F3A8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FE625123F264160025F3A8 /* NotificationCenter.framework */; };
+		F8FE625523F264160025F3A8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE625423F264160025F3A8 /* TodayViewController.swift */; };
+		F8FE625823F264160025F3A8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FE625623F264160025F3A8 /* MainInterface.storyboard */; };
+		F8FE625C23F264160025F3A8 /* 即将上课.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8FE624F23F264160025F3A8 /* 即将上课.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8FE626723F29B340025F3A8 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE626623F29B340025F3A8 /* ImageView.swift */; };
+		F8FE626923F2AD5C0025F3A8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FE626823F2AD5C0025F3A8 /* icon.png */; };
+		F8FE626F23F2BD740025F3A8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FE625123F264160025F3A8 /* NotificationCenter.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8FE625A23F264160025F3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F810774823F0EBF100340B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8FE624E23F264160025F3A8;
+			remoteInfo = widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8FE626023F264160025F3A8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F8FE625C23F264160025F3A8 /* 即将上课.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F810775023F0EBF100340B4C /* course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = course.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,8 +67,18 @@
 		F810777223F0ED4500340B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F810777323F0ED6E00340B4C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		F810777923F160DE00340B4C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		F810777C23F16C6900340B4C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F810777C23F16C6900340B4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F810777F23F16D2A00340B4C /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		F8FE624923F24AC00025F3A8 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		F8FE624F23F264160025F3A8 /* 即将上课.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "即将上课.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FE625123F264160025F3A8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F8FE625423F264160025F3A8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F8FE625723F264160025F3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F8FE625923F264160025F3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FE626223F27CBC0025F3A8 /* MyTodayWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyTodayWidget.entitlements; sourceTree = "<group>"; };
+		F8FE626423F28BEE0025F3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8FE626623F29B340025F3A8 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		F8FE626823F2AD5C0025F3A8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +89,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8FE624C23F264160025F3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FE625223F264160025F3A8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FE626B23F2BD740025F3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FE626F23F2BD740025F3A8 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				F810775223F0EBF100340B4C /* course */,
+				F8FE625323F264160025F3A8 /* widget */,
+				F8FE625023F264160025F3A8 /* Frameworks */,
 				F810775123F0EBF100340B4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				F810775023F0EBF100340B4C /* course.app */,
+				F8FE624F23F264160025F3A8 /* 即将上课.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,13 +130,17 @@
 		F810775223F0EBF100340B4C /* course */ = {
 			isa = PBXGroup;
 			children = (
-				F810777B23F16C5300340B4C /* Home */,
+				F8FE626523F29B210025F3A8 /* Image */,
+				F8FE624823F24A9E0025F3A8 /* List */,
+				F810778123F1839300340B4C /* iconfont */,
+				F810777C23F16C6900340B4C /* ContentView.swift */,
 				F810777E23F16D0100340B4C /* Profile */,
 				F810777823F160C100340B4C /* Models */,
 				F810775323F0EBF100340B4C /* AppDelegate.swift */,
 				F810775523F0EBF100340B4C /* SceneDelegate.swift */,
 				F810775C23F0EBF200340B4C /* Assets.xcassets */,
 				F810776123F0EBF200340B4C /* LaunchScreen.storyboard */,
+				F8FE626823F2AD5C0025F3A8 /* icon.png */,
 				F810776423F0EBF200340B4C /* Info.plist */,
 				F810775723F0EBF100340B4C /* course.xcdatamodeld */,
 				F810775E23F0EBF200340B4C /* Preview Content */,
@@ -100,20 +165,54 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F810777B23F16C5300340B4C /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				F810777C23F16C6900340B4C /* Home.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
 		F810777E23F16D0100340B4C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
 				F810777F23F16D2A00340B4C /* ProfileHost.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		F810778123F1839300340B4C /* iconfont */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iconfont;
+			sourceTree = "<group>";
+		};
+		F8FE624823F24A9E0025F3A8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F8FE624923F24AC00025F3A8 /* CourseList.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F8FE625023F264160025F3A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FE625123F264160025F3A8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8FE625323F264160025F3A8 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				F8FE626223F27CBC0025F3A8 /* MyTodayWidget.entitlements */,
+				F8FE625423F264160025F3A8 /* TodayViewController.swift */,
+				F8FE625623F264160025F3A8 /* MainInterface.storyboard */,
+				F8FE625923F264160025F3A8 /* Info.plist */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		F8FE626523F29B210025F3A8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F8FE626623F29B340025F3A8 /* ImageView.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,15 +225,35 @@
 				F810774C23F0EBF100340B4C /* Sources */,
 				F810774D23F0EBF100340B4C /* Frameworks */,
 				F810774E23F0EBF100340B4C /* Resources */,
+				F8FE626023F264160025F3A8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F8FE625B23F264160025F3A8 /* PBXTargetDependency */,
+				F8FE627823F2BD740025F3A8 /* PBXTargetDependency */,
 			);
 			name = course;
 			productName = course;
 			productReference = F810775023F0EBF100340B4C /* course.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F8FE624E23F264160025F3A8 /* widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FE625D23F264160025F3A8 /* Build configuration list for PBXNativeTarget "widget" */;
+			buildPhases = (
+				F8FE624B23F264160025F3A8 /* Sources */,
+				F8FE624C23F264160025F3A8 /* Frameworks */,
+				F8FE624D23F264160025F3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widget;
+			productName = widget;
+			productReference = F8FE624F23F264160025F3A8 /* 即将上课.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,6 +266,12 @@
 				ORGANIZATIONNAME = "张复星";
 				TargetAttributes = {
 					F810774F23F0EBF100340B4C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F8FE624E23F264160025F3A8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F8FE626D23F2BD740025F3A8 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -168,6 +293,7 @@
 			projectRoot = "";
 			targets = (
 				F810774F23F0EBF100340B4C /* course */,
+				F8FE624E23F264160025F3A8 /* widget */,
 			);
 		};
 /* End PBXProject section */
@@ -178,9 +304,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				F810776323F0EBF200340B4C /* LaunchScreen.storyboard in Resources */,
+				F8FE626923F2AD5C0025F3A8 /* icon.png in Resources */,
 				F810776F23F0ED3900340B4C /* InfoPlist.strings in Resources */,
 				F810776023F0EBF200340B4C /* Preview Assets.xcassets in Resources */,
 				F810775D23F0EBF200340B4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FE624D23F264160025F3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FE625823F264160025F3A8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FE626C23F2BD740025F3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,16 +333,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FE626723F29B340025F3A8 /* ImageView.swift in Sources */,
 				F810775923F0EBF100340B4C /* course.xcdatamodeld in Sources */,
 				F810775423F0EBF100340B4C /* AppDelegate.swift in Sources */,
 				F810777A23F160DE00340B4C /* UserData.swift in Sources */,
 				F810778023F16D2A00340B4C /* ProfileHost.swift in Sources */,
-				F810777D23F16C6900340B4C /* Home.swift in Sources */,
+				F810777D23F16C6900340B4C /* ContentView.swift in Sources */,
 				F810775623F0EBF100340B4C /* SceneDelegate.swift in Sources */,
+				F8FE624A23F24AC00025F3A8 /* CourseList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FE624B23F264160025F3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FE625523F264160025F3A8 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FE626A23F2BD740025F3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8FE625B23F264160025F3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8FE624E23F264160025F3A8 /* widget */;
+			targetProxy = F8FE625A23F264160025F3A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F810776123F0EBF200340B4C /* LaunchScreen.storyboard */ = {
@@ -210,6 +377,7 @@
 				F810776A23F0ECBD00340B4C /* zh-Hans */,
 				F810776B23F0ECC600340B4C /* zh-Hant */,
 				F810776C23F0ECCC00340B4C /* zh-HK */,
+				F8FE626423F28BEE0025F3A8 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -222,6 +390,14 @@
 				F810777323F0ED6E00340B4C /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8FE625623F264160025F3A8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8FE625723F264160025F3A8 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -346,7 +522,9 @@
 		F810776823F0EBF200340B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = course/course.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"course/Preview Content\"";
 				DEVELOPMENT_TEAM = 5M2W4KCMK2;
@@ -366,7 +544,9 @@
 		F810776923F0EBF200340B4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = course/course.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"course/Preview Content\"";
 				DEVELOPMENT_TEAM = 5M2W4KCMK2;
@@ -378,6 +558,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zfx.course;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8FE625E23F264160025F3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = widget/MyTodayWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M2W4KCMK2;
+				INFOPLIST_FILE = widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zfx.course.widget;
+				PRODUCT_NAME = "即将上课";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8FE625F23F264160025F3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = widget/MyTodayWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5M2W4KCMK2;
+				INFOPLIST_FILE = widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zfx.course.widget;
+				PRODUCT_NAME = "即将上课";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,6 +620,15 @@
 			buildConfigurations = (
 				F810776823F0EBF200340B4C /* Debug */,
 				F810776923F0EBF200340B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8FE625D23F264160025F3A8 /* Build configuration list for PBXNativeTarget "widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FE625E23F264160025F3A8 /* Debug */,
+				F8FE625F23F264160025F3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
